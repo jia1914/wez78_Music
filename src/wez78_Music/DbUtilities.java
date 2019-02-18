@@ -12,7 +12,6 @@ import javax.swing.table.DefaultTableModel;
 /**
  * Provides methods for: 
  * 1. Retrieving data sets from MySQL databases. 
- * 2. For executing UPDATE, INSERT, DELETE queries 
  * 3. For building tables to populate data grids (JTable)
  * @author Weijia Zhang
  * @version 1.1

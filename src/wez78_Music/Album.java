@@ -59,7 +59,7 @@ public class Album {
 		return title;
 	}
 	public void setTitle(String title) {
-		String sql = "UPDATE title SET title = ' "+title+"'WHERE album_id = '"+ this.albumID + "';"; 
+		String sql = "UPDATE album WHERE title = '"+ this.title + "';"; 
 		this.title = title;
 		System.out.println(sql);
 		db.executeQuery(sql);

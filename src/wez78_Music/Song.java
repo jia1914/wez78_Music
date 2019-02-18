@@ -63,7 +63,7 @@ public class Song {
 		return title;
 	}
 	public void setTitle(String title) {
-		String sql = "UPDATE title SET title = ' "+title+"'WHERE song_id = '"+ this.songID + "';"; 
+		String sql = "UPDATE song SET title = '"+ title + "' WHERE song_id = '" + this.songID+ "';";
 		this.title = title;
 		System.out.println(sql);
 		db.executeQuery(sql);
