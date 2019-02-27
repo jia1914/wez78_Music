@@ -177,5 +177,10 @@ public class DbUtilities {
 		}
 		return new DefaultTableModel(data, columnNames);
 	}
+
+	public Connection Getconn() {
+		
+		return conn ;
+	}
     
 }
